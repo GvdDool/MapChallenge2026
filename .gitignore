@@ -1,0 +1,15 @@
+# IDE Settings
+.vscode/
+.cursor/
+
+# Python
+__pycache__/
+*.pyc
+
+# Project Data
+*.sqlite
+.env
+outputs/
+data/
+notebooks/
+configs/
