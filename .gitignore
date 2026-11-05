@@ -1,15 +1,21 @@
-# IDE Settings
-.vscode/
-.cursor/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
-# Python
+# Python bytecode and cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Project Data
-*.sqlite
-.env
-outputs/
-data/
-notebooks/
-configs/
+# Temporary and cache files
+cache/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
